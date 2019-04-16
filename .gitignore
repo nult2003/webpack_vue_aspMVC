@@ -11079,3 +11079,5 @@ WebApplication1/obj/Debug/WebApplication1.csproj.FileListAbsolute.txt
 WebApplication1/obj/Debug/WebApplication1.csprojAssemblyReference.cache
 WebApplication1/WebApplication1.csproj.user
 WebApplication1/WebApplication1.csproj.user
+.vs/WebApplication1/v15/Server/sqlite3/storage.ide-shm
+.vs/WebApplication1/v15/Server/sqlite3/storage.ide-wal
