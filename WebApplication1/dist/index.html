@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Demo webpack + vue</title>
+
+</head>
+
+<body>    
+    <div id="app-main">        
+        <!--<wait-loading></wait-loading>-->
+        <b-container fluid>
+            <b-row>
+                <b-col cols="3">
+                    <navbar :inverted="false"></navbar>
+                </b-col>
+
+                <b-col cols="5" class="main">                    
+                    <router-view>loading...</router-view>
+                </b-col>
+            </b-row>
+        </b-container>
+
+        <!--<navbar :inverted="false"></navbar>
+
+        <router-view>loading...</router-view>-->
+    </div>
+
+<script type="text/javascript" src="app.bundle.js"></script></body>
+
+</html>

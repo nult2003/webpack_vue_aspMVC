@@ -11056,8 +11056,6 @@ WebApplication1/node_modules/.bin/ansi-html.cmd
 WebApplication1/node_modules/.bin/ansi-html
 WebApplication1/node_modules/.bin/acorn.cmd
 WebApplication1/node_modules/.bin/acorn
-WebApplication1/dist/index.html
-WebApplication1/dist/app.bundle.js
 .vs/WebApplication1/v15/Server/sqlite3/storage.ide-wal
 .vs/WebApplication1/v15/Server/sqlite3/storage.ide-shm
 .vs/WebApplication1/v15/Server/sqlite3/db.lock
