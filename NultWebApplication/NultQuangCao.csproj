@@ -157,12 +157,35 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="src\components\home\css\main.css" />
+    <Content Include="src\components\home\css\reset.css" />
+    <Content Include="src\components\home\css\responsive.css" />
+    <Content Include="src\components\home\img\advanced_search_active.png" />
+    <Content Include="src\components\home\img\advanced_search_hover.png" />
+    <Content Include="src\components\home\img\advanced_search_inactive.png" />
+    <Content Include="src\components\home\img\calendar_icon.png" />
+    <Content Include="src\components\home\img\close_menu_icon.png" />
+    <Content Include="src\components\home\img\hamburger_icon.png" />
+    <Content Include="src\components\home\img\hero.jpg" />
+    <Content Include="src\components\home\img\hero_small.jpg" />
+    <Content Include="src\components\home\img\logo.png" />
+    <Content Include="src\components\home\img\property_1.jpg" />
+    <Content Include="src\components\home\img\property_2.jpg" />
+    <Content Include="src\components\home\img\property_3.jpg" />
+    <Content Include="src\components\home\img\search_arrow.png" />
+    <Content Include="src\components\home\img\social_media.png" />
+    <Content Include="src\components\home\home.html" />
+    <Content Include="src\components\home\js\jquery.js" />
+    <Content Include="src\components\home\js\main.js" />
+    <Content Include="src\components\layout\layout.html" />
     <Content Include="src\components\navbar\navbar.html" />
     <Content Include="src\index.html" />
     <Content Include="src\util\helpers.js" />
     <Content Include="webpack.dev.js" />
     <Content Include="webpack.prod.js" />
     <Content Include="package.json" />
+    <Content Include="src\components\home\home.scss" />
+    <Content Include="src\components\layout\layout.scss" />
     <None Include="src\index.less" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -185,6 +208,7 @@
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
     <Folder Include="src\assets\css\" />
+    <Folder Include="src\assets\images\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

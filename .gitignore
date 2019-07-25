@@ -12189,3 +12189,6 @@ NultWebApplication/node_modules/@xtuc/long/src/long.js
 /NultWebApplication/node_modules
 /NultWebApplication/obj/Debug
 /.vs/NultWebApplication/v15/Server/sqlite3
+/Website/node_modules
+/Website/dist
+/NultWebApplication/dist/src
