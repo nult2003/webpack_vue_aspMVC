@@ -15,4 +15,9 @@ export class LayoutComponent extends Vue {
     getImgUrl(imgName: string) {
         return require('./img/' + imgName);
     }
+
+    redirectToCategory() {
+        console.log('call category');
+        this.$router.push({ name: "Category" });
+    }
 }
