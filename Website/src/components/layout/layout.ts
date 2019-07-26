@@ -11,4 +11,8 @@ export class LayoutComponent extends Vue {
     mounted() {
 
     }
+
+    getImgUrl(imgName: string) {
+        return require('./img/' + imgName);
+    }
 }

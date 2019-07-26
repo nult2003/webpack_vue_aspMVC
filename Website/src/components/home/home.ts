@@ -17,4 +17,17 @@ export class HomeComponent extends Vue {
     getImgUrl(imgName: string) {
         return require('./img/' + imgName);
     }
+
+    expandSearch() {
+        console.log('display search');
+        let ads_box = $('.advanced_search');
+        if (!ads_box.hasClass('advanced_displayed')) {
+            $(this).addClass('active');
+            ads_box.stop().fadeIn(200).addClass('advanced_displayed');
+        }
+        else {
+            $(this).removeClass('active');
+            ads_box.stop().fadeOut(200).removeClass('advanced_displayed');
+        }
+    }
 }

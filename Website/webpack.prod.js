@@ -137,5 +137,5 @@ module.exports = merge(common, {
             template: "./src/index.html"
 
         })
-    ],
+    ]
 });

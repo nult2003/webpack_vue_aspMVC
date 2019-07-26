@@ -2,6 +2,7 @@
 const common = require('./webpack.common.js');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const webpack = require('webpack');
 
 module.exports = merge(common, {
     mode: 'development',
@@ -18,5 +19,5 @@ module.exports = merge(common, {
             template: "./src/index.html"           
         
         })
-    ],
+    ]
 });
