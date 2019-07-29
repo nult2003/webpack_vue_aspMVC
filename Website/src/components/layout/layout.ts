@@ -20,4 +20,6 @@ export class LayoutComponent extends Vue {
         console.log('call category');
         this.$router.push({ name: "Category" });
     }
+
+
 }

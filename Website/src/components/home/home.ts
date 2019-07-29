@@ -30,4 +30,8 @@ export class HomeComponent extends Vue {
             ads_box.stop().fadeOut(200).removeClass('advanced_displayed');
         }
     }
+    redirectToCategory() {
+        console.log('call category');
+        this.$router.push({ name: "Category" });
+    }
 }

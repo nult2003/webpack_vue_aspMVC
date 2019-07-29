@@ -14,7 +14,7 @@ export class CategoryComponent extends Vue {
 
     }
 
-    //getImgUrl(imgName: string) {
-    //    return require('./img/' + imgName);
-    //}
+    getImgUrl(imgName: string) {
+        return require('./img/' + imgName);
+    }
 }
