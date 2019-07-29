@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@types/jquery": "^3.3.30",
+    "@types/webpack": "^4.32.1",
     "jquery": "^3.4.1",
     "lodash": "^4.17.14",
     "vue-property-decorator": "^8.0.0"

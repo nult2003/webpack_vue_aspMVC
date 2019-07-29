@@ -18,7 +18,7 @@ export class LayoutComponent extends Vue {
 
     redirectToCategory() {
         console.log('call category');
-        this.$router.push({ name: "Category" });
+        this.$router.push({ name: "Details" });
     }
 
 

@@ -1,24 +1,21 @@
 ﻿import { Component, Vue } from "vue-property-decorator";
 import { LayoutComponent } from "../layout";
-import "./category.scss";
+import "./details.scss";
 
 @Component({
-    template: require("./category.html"),
+    template: require("./details.html"),
     components: {
         "wa-layout": LayoutComponent
     }
 })
 
-export class CategoryComponent extends Vue {
+export class DetailsComponent extends Vue {
+    imgRedPath: string = "";
     mounted() {
+        this.imgRedPath = this.getImgUrl("red.png");
     }
 
     getImgUrl(imgName: string) {
         return require('./img/' + imgName);
-    }
-
-    redirectToDetails() {
-        console.log('call category');
-        this.$router.push({ name: "Details" });
     }
 }
